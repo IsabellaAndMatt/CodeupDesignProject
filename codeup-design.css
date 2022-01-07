@@ -1,13 +1,58 @@
-#logo {
-    width: 150px;
-    height: auto;
-
+body {
+    background-color: #e6e6e6;
+    font-family: 'Abel', sans-serif;
 }
 
-.jumbotron {
-    /*height: 75px;*/
+h1, h2, h3, h4, h5 {
+    font-family: 'Anton', sans-serif;
+}
+
+#logo {
+    width: auto;
+    height: 105px;
 }
 
 .navbar {
-    height: 50px ;
+    height: 4rem;
+}
+
+h1, h4, h6, #title {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+.btn-circle.btn-sm {
+    width: 18px;
+    height: 18px;
+    padding: 6px 0px;
+    border-radius: 9px;
+    font-size: 8px;
+    text-align: center;
+}
+.btn-circle.btn-xl {
+    width: 105px;
+    height: 105px;
+    padding: 10px 16px;
+    border-radius: 52.5px;
+    border: 7px solid white;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+.btn-host{
+    background-color: #00ABA9;
+}
+.btn-support{
+    background-color: #7CB06C;
+}
+.btn-develop{
+    background-color: #EB9D3A;
+}
+.btn-design{
+    background-color: #E6563B;
+}
+h5{
+    margin-bottom: 0;
 }
