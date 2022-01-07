@@ -3,7 +3,7 @@ body {
     font-family: 'Abel', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h2, h3, h4, h5 {
     font-family: 'Anton', sans-serif;
 }
 
@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5 {
     height: 4rem;
 }
 
-h1, h4, h6, #title {
+h1, h2, h4, h6, #title {
     text-align: center;
 }
 
@@ -56,3 +56,10 @@ ul {
 h5{
     margin-bottom: 0;
 }
+
+.btm {
+    width: 80%;
+    color: #cccccc;
+    border-bottom: 3px #cccccc solid;
+}
+
