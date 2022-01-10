@@ -116,3 +116,12 @@ nav .nav-item {
         top: 5px;
     }
 }
+@media screen and (min-width: 720px){
+    .box {
+        width:720px;
+        justify-content: center;
+    }
+    .smbox{
+        width:540px;
+    }
+}
