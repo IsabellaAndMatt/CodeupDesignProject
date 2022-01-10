@@ -115,13 +115,14 @@ nav .nav-item {
         position: relative;
         top: 5px;
     }
-}
-@media screen and (min-width: 720px){
     .box {
-        width:720px;
+        max-width:992px;
         justify-content: center;
     }
     .smbox{
         width:540px;
     }
+}
+@media screen and (min-width: 720px){
+
 }
