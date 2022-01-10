@@ -16,7 +16,37 @@
 </head>
 <body>
 <div class="text-capitalize">
-    <header class="container-fluid mb-4 p-0">
+    <div class="nav-background bg-light"></div>
+    <div class="wrapper">
+        <nav class="navbar navbar-light">
+            <div class="container-fluid">
+                <ul class="nav w-100 justify-content-center">
+                    <li class="order-md-3 order-lg-0 mr-lg-auto">
+                        <a href="#" class="navbar-brand d-block w-100 mb-2 m-md-0 text-center">
+                            <img class="" width="105px" src="../CodeupDesignProject/assets/logo.png"
+                                 alt="Codeup Design logo">
+                            <div class="brand-name d-block d-lg-inline text-center w-100">codeup design</div>
+                        </a>
+                    </li>
+                    <div class="w-100 d-md-none"></div><!-- used to force line break in flex items for mobile -->
+                    <li class="nav-item order-md-1 order-lg-1 mt-md-5">
+                        <a class="nav-link text-uppercase px-2 px-md-3" href="">Services</a>
+                    </li>
+                    <li class="nav-item order-md-2 order-lg-2 mt-md-5">
+                        <a class="nav-link text-uppercase px-2 pl-md-3 pr-md-0 px-lg-3" href="">Work</a>
+                    </li>
+                    <li class="nav-item order-md-4 order-lg-3 mt-md-5">
+                        <a class="nav-link text-uppercase px-2 pl-md-0 pr-md-3 px-lg-3" href="">Blog</a>
+                    </li>
+                    <li class="nav-item order-md-5 order-lg-4 mt-md-5">
+                        <a class="nav-link text-uppercase px-2 px-md-3" href="">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <header class="container-fluid d-none mb-4 p-0">
 
         <nav class="navbar mb-4 mt-3 justify-content-center row text-center"
              style="background-color: #f0f0f0">
@@ -94,7 +124,8 @@
                 <h6 class="mb-5 text-left d-none d-md-block">SELECTED WORK</h6>
                 <h6 class="mb-5 d-block d-md-none">SELECTED WORK</h6>
                 <div class="row mb-5">
-                    <div class="col-12 col-sm-6 row m-auto clearfix">
+
+                    <div class="col-auto row m-auto justify-content-center clearfix">
                         <img src="./assets/images/apple-ipad.jpg" alt="apple-ipad"
                              class="img-thumbnail img-size">
 
@@ -108,42 +139,48 @@
                             <button class="btn btn-host btn-circle btn-sm font-weight-bolder p-0">H</button>
                         </div>
                     </div>
-                    <div class="col row m-auto d-none d-sm-block clearfix">
-                        <img src="./assets/images/macbook.jpg" alt="macbook" class="img-thumbnail img-size">
-                        <div class="w-100"></div>
-                        <div class="col-5 text-nowrap float-left p-0">FEATURED PROJECT</div>
-                        <div class="col-4 text-nowrap float-right text-right p-0">
-                            <button class="btn btn-design btn-circle btn-sm font-weight-bolder p-0">D</button>
-                            <button class="btn btn-develop btn-circle btn-sm font-weight-bolder p-0">D</button>
-                            <button class="btn btn-support btn-circle btn-sm font-weight-bolder p-0">S</button>
-                            <button class="btn btn-host btn-circle btn-sm font-weight-bolder p-0">H</button>
+                    <div class="col row m-auto justify-content-center clearfix">
+                        <div class="d-none d-sm-block">
+                            <img src="./assets/images/macbook.jpg" alt="macbook" class="img-thumbnail img-size">
+                            <div class="w-100"></div>
+                            <div class="col-5 text-nowrap float-left p-0">FEATURED PROJECT</div>
+                            <div class="col-4 text-nowrap float-right text-right p-0">
+                                <button class="btn btn-design btn-circle btn-sm font-weight-bolder p-0">D</button>
+                                <button class="btn btn-develop btn-circle btn-sm font-weight-bolder p-0">D</button>
+                                <button class="btn btn-support btn-circle btn-sm font-weight-bolder p-0">S</button>
+                                <button class="btn btn-host btn-circle btn-sm font-weight-bolder p-0">H</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="row mt-3">
-                    <div class="col row m-auto justify-content-center d-none d-sm-block clearfix">
-                        <img src="./assets/images/man.jpg" alt="man" class="img-thumbnail img-size">
-                        <div class="w-100"></div>
-                        <div class="col-5 text-nowrap float-left p-0">FEATURED PROJECT</div>
-                        <div class="col-4 text-nowrap float-right text-right p-0">
-                            <button class="btn btn-design btn-circle btn-sm font-weight-bolder p-0">D</button>
-                            <button class="btn btn-develop btn-circle btn-sm font-weight-bolder p-0">D</button>
-                            <button class="btn btn-support btn-circle btn-sm font-weight-bolder p-0">S</button>
-                            <button class="btn btn-host btn-circle btn-sm font-weight-bolder p-0">H</button>
+                    <div class="row mt-3">
+                        <div class="col row m-auto justify-content-center clearfix">
+                            <div class="d-none d-sm-block">
+                                <img src="./assets/images/man.jpg" alt="man" class="img-thumbnail img-size">
+                                <div class="w-100"></div>
+                                <div class="col-5 text-nowrap float-left p-0">FEATURED PROJECT</div>
+                                <div class="col-4 text-nowrap float-right text-right p-0">
+                                    <button class="btn btn-design btn-circle btn-sm font-weight-bolder p-0">D</button>
+                                    <button class="btn btn-develop btn-circle btn-sm font-weight-bolder p-0">D</button>
+                                    <button class="btn btn-support btn-circle btn-sm font-weight-bolder p-0">S</button>
+                                    <button class="btn btn-host btn-circle btn-sm font-weight-bolder p-0">H</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col row m-auto justify-content-center clearfix">
+                            <div class="d-none d-sm-block">
+                                <img src="./assets/images/security.jpg" alt="security" class="img-thumbnail img-size">
+                                <div class="w-100"></div>
+                                <div class="col-5 text-nowrap float-left p-0">FEATURED PROJECT</div>
+                                <div class="col-4 text-nowrap float-right text-right p-0">
+                                    <button class="btn btn-design btn-circle btn-sm font-weight-bolder p-0">D</button>
+                                    <button class="btn btn-develop btn-circle btn-sm font-weight-bolder p-0">D</button>
+                                    <button class="btn btn-support btn-circle btn-sm font-weight-bolder p-0">S</button>
+                                    <button class="btn btn-host btn-circle btn-sm font-weight-bolder p-0">H</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col row m-auto justify-content-center d-none d-sm-block clearfix">
-                        <img src="./assets/images/security.jpg" alt="security" class="img-thumbnail img-size">
-                        <div class="w-100"></div>
-                        <div class="col-5 text-nowrap float-left p-0">FEATURED PROJECT</div>
-                        <div class="col-4 text-nowrap float-right text-right p-0">
-                            <button class="btn btn-design btn-circle btn-sm font-weight-bolder p-0">D</button>
-                            <button class="btn btn-develop btn-circle btn-sm font-weight-bolder p-0">D</button>
-                            <button class="btn btn-support btn-circle btn-sm font-weight-bolder p-0">S</button>
-                            <button class="btn btn-host btn-circle btn-sm font-weight-bolder p-0">H</button>
-                        </div>
-                    </div>
-                </div>
             </div>
             <div class="col-5 d-none d-md-block">
                 <h6 class="mb-5 text-left">THE LAST</h6>
